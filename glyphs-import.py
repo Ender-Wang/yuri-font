@@ -36,10 +36,10 @@ for filename in os.listdir(image_folder):
     layer.backgroundImage = bg_image
     # change transformation, scale to fit and adjust offset
     layer.backgroundImage.transform = (
-        11 / 3,  # x scale factor
+        1.0,  # x scale factor
         0.0,  # x skew factor
         0.0,  # y skew factor
-        11 / 3,  # y scale factor
+        1.0,  # y scale factor
         0.0,  # x position
         0.0,  # y position
     )
