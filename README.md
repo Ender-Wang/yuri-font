@@ -59,16 +59,16 @@ pipenv install pillow && pipenv shell
 
 4. Script each image using Procreate or any other image processing tool, and export the scripted images into one folder, such as putting them in the `Downloads` dir.
 
-5. Run the `cross-remover.py` script to remove the cross from the images:
+5. Run the `png-cleaner.py` script to remove the cross and background from the scripted images:
 
     ```bash
-    python3 cross-remover.py <relative/path/to/your_scripted_images>
+    python3 png-cleaner.py <relative/path/to/your_scripted_images>
     ```
 
     Example:
 
     ```bash
-    python3 cross-remover.py ~/Downloads/
+    python3 png-cleaner.py ~/Downloads/
     ```
 
 6. Import scripted images into Glyphs 3:
